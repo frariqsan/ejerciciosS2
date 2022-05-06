@@ -1,0 +1,69 @@
+*{
+    font-family: "Roboto Flex", sans-serif;
+}
+html{
+    font-size: 18px;
+}
+div{
+    position: relative;
+}
+.logo-container{
+    float: left;
+}
+.form-container{
+    float: left;    
+    max-width: 550px;
+}
+.form-group{
+    margin: 20px auto;
+}
+
+input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+}
+input.input-checkbox{
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+}
+.button-container{
+    float: left;
+    width: 30%;
+}
+.check-container{
+    display: inline-block;
+    width: 70%;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+}
+ul{
+    columns: 2;
+    list-style: none;
+}
+ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+.show-password{
+    position: absolute;
+    right: 0;
+    top: -8px;
+    color: #4caf50;
+    height: 30px;
+}  
+.show-password img {
+    max-width: 30px;
+    position: relative;
+    top:5px;
+    left:-5px;
+}
